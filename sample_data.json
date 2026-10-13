@@ -1,0 +1,42 @@
+{
+  "workouts": {
+    "sample-workout-uuid": {
+      "id": "sample-workout-uuid",
+      "title": "Push Day",
+      "description": "Chest & Triceps",
+      "start_time": "2026-10-10T08:00:00Z",
+      "end_time": "2026-10-10T09:15:00Z",
+      "exercises": [
+        {
+          "exercise_template_id": "bench-press-id",
+          "title": "Bench Press (Barbell)",
+          "sets": [
+            {
+              "type": "normal",
+              "weight_kg": 80.0,
+              "reps": 8,
+              "rpe": 8.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "routines": {},
+  "templates": [
+    {
+      "id": "bench-press-id",
+      "title": "Bench Press (Barbell)",
+      "type": "weight_reps",
+      "primary_muscle_group": "chest"
+    }
+  ],
+  "measurements": {
+    "2026-10-10": {
+      "date": "2026-10-10",
+      "weight": 75.5,
+      "body_fat": 15.2
+    }
+  },
+  "last_sync": "2026-10-13T12:00:00.000000"
+}

@@ -1,0 +1,25 @@
+# Environment variables and secrets
+.env
+*.env
+
+# Local data files
+hevy_data.json
+*.json
+!sample_data.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+ENV/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
